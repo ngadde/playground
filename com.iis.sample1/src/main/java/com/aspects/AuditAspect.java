@@ -17,6 +17,7 @@ public class AuditAspect {
     @Pointcut("execution(* org.bk.inventory.service.*.*(..))")
     public void serviceMethods(){
         //
+    	System.out.println("smaple");
     }
 
     
